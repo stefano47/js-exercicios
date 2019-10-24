@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Curso Javascript</title>
+</head>
+<body>
+    <div id="app">
+        <input type="text" id="teste">
+    </div>
+
+    <script>
+        // criando elementos no Javascript
+        var linkElement = document.createElement('a')
+        linkElement.setAttribute('href', 'http://rocketseat.com.br')
+        linkElement.setAttribute('title', 'Site da Rocketseat')
+
+        var linkText = document.createTextNode('Acessar site da Rocketseat')
+        linkElement.appendChild(linkText)
+
+        // inserindo elementos criados na DOM
+        var containerElement = document.querySelector('#app')
+        containerElement.appendChild(linkElement)
+
+        // removendo elementos da DOM no Javascript
+        var inputElement = document.querySelector('input#teste')
+        containerElement.removeChild(inputElement)
+    </script>
+</body>
+</html>

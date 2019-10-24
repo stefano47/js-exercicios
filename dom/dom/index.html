@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Curso Javascript</title>
+</head>
+<body>
+    <div id="app">
+        <input type="text" name="nome" id="nome">
+        <button class="botao">Adicionar</button>
+    </div>
+
+    <script>
+        // referenciando os elementos da DOM no Javascript
+        var inputElement = document.querySelector('input#nome')
+        var btnElement = document.querySelector('button.botao')
+
+        // capturando o click do botão de um objeto referenciado
+        btnElement.onclick = function() {
+            // capturando o texto de um objeto referenciado
+            var text = inputElement.value
+            alert(text)
+        }
+    </script>
+</body>
+</html>
