@@ -1,0 +1,29 @@
+body {
+    background-color: #eee;
+    font-family: sans-serif;
+}
+
+button {
+    display: block;
+    margin: 10px 0px 10px 0px;
+    width: 200px;
+}
+
+button#botao {
+    display: inline;
+}
+
+.azul {
+    background-color: #0000ff;
+    color: #fff;
+}
+
+.vermelho {
+    background-color: #ff0000;
+    color: #fff;
+}
+
+.verde {
+    background-color: #00ff00;
+    color: #000;
+}
