@@ -1,0 +1,1 @@
+export default numeroAleatorio = _ => Math.random() * 100
